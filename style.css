@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+.box{
+	width: 80%;
+	height: auto;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	margin: 0;
+	margin-top: 5%;
+	color: white;
+	text-align: center;
+	font-family: 'Century Gothic', sans-serif;
+	display: inline-block;
+}
+
+.titlescontainer{
+	text-align: center;
+	float: right;
+	margin-top: 5%
+	text-align: center;
+}
+
+
+.titlescontainer h1{
+	color: coral;
+	font-size:300%;
+	letter-spacing: 4px;
+	font-weight: 300;
+}
+
+.titlescontainer h5{
+	font-size: 25px;
+	font-weight: 100;
+}
+
+section{
+	padding: 50px;
+}
+
+#main{
+	background: url(planetbackground.jpg) no-repeat;
+	background-size: auto;
+	background-position: center;
+}
+
+#about{
+	background: rgb(255, 192, 203);
+}
+
+#happyprofile {
+	border-radius: 50%;
+	width: 300px;
+	height: auto;
+	float: left;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+footer li{
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+
+footer li a{
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+	letter-spacing: 10px;
+	transition: all ease-in-out 250ms;
+}
+
+footer li a:hover{
+	color: #b9b9b9;
+}
