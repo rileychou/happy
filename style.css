@@ -1,43 +1,104 @@
+header{
+	background: LavenderBlush;
+	height: 100px;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 	text-align: center;
 }
 
 footer {
 	text-align: center;
+	background: #008b8b;
+	padding: 2em 0;
 }
 
-.box{
-	width: 80%;
-	height: auto;
-	background: rgba(0, 0, 0, 0.4);
-	padding: 40px;
-	margin: 0;
-	margin-top: 5%;
-	color: white;
-	text-align: center;
-	font-family: 'Century Gothic', sans-serif;
+.nav-area{
+	float: right;
+	list-style: none;
+	padding: 20px 0;
+}
+
+.nav-area li{
 	display: inline-block;
 }
 
-.titlescontainer{
-	text-align: center;
-	float: right;
-	margin-top: 5%
+.nav-area li a{
+	color: #545454;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: Montserrat;
+	font-size: 14px;
+	transition: all ease-in-out 250ms;
+}
+
+.nav-area li a:hover{
+	color: #a9a9a9;
+}
+
+.logo{
+	padding: 15px;
+}
+
+.logo img{
+	width: 70px;
+	float: left;
+	height: auto;
+}
+
+.box{
+	max-width: 800px;
+	height: auto;
+	background: rgba(155, 155, 155, 0.4);
+	padding: 75px;
+	margin: 0;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+	display: inline-block;
 	text-align: center;
 }
 
+.left{
+    width: 250px;
+	float: left;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
 
-.titlescontainer h1{
+.right{
+	width: 250px;
+	float: left;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px){
+	.left, .right {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+#happyprofile {
+	border-radius: 50%;
+	width: 250px;
+	height: auto;
+	display: block;
+}
+
+.right h1{
 	color: coral;
 	font-size:300%;
 	letter-spacing: 4px;
 	font-weight: 300;
 }
 
-.titlescontainer h5{
+.right h5{
 	font-size: 25px;
 	font-weight: 100;
 }
@@ -47,7 +108,7 @@ section{
 }
 
 #main{
-	background: url(planetbackground.jpg) no-repeat;
+	background: url(images/mtns.png) no-repeat;
 	background-size: auto;
 	background-position: center;
 }
@@ -56,21 +117,32 @@ section{
 	background: rgb(255, 192, 203);
 }
 
-#happyprofile {
-	border-radius: 50%;
-	width: 300px;
-	height: auto;
-	float: left;
+h2{
+	font-family: Courier, monospace;
+}
+
+#about p, #goodgirl p{
+	font-family: Courier New, monospace;
+}
+
+#accomplishments{
+	background: url(images/planetbackground.jpg) no-repeat;
+	background-size: auto;
+}
+
+#goodgirl{
+	background: rgb(255, 192, 203);
 }
 
 ul{
 	margin: 0;
 	padding: 0;
+	list-style-position: inside;
 }
 
 footer li{
 	display: inline-block;
-	margin: 6px;
+	margin: 10px;
 	list-style: none;
 }
 
@@ -84,4 +156,8 @@ footer li a{
 
 footer li a:hover{
 	color: #b9b9b9;
+}
+
+footer small{
+	margin-top: 10px;
 }
