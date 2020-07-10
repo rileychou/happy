@@ -1,6 +1,10 @@
+
+
 header{
 	background: LavenderBlush;
 	height: 100px;
+	position: sticky;
+	top: 0%;
 }
 
 body {
@@ -19,7 +23,7 @@ footer {
 .nav-area{
 	float: right;
 	list-style: none;
-	padding: 20px 0;
+	padding: auto 0;
 }
 
 .nav-area li{
@@ -30,13 +34,14 @@ footer {
 	color: #545454;
 	text-decoration: none;
 	padding: 5px 20px;
-	font-family: Montserrat;
+	font-family: "Courier New", monospace;
 	font-size: 14px;
 	transition: all ease-in-out 250ms;
 }
 
 .nav-area li a:hover{
 	color: #a9a9a9;
+	border-radius: 3px;
 }
 
 .logo{
@@ -126,12 +131,13 @@ h2{
 }
 
 #accomplishments{
-	background: url(images/planetbackground.jpg) no-repeat;
+	background-image: linear-gradient(to bottom right, #B0E0E6, #D8BFD8);
 	background-size: auto;
 }
 
 #goodgirl{
 	background: rgb(255, 192, 203);
+	
 }
 
 ul{
