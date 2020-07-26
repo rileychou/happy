@@ -1,5 +1,3 @@
-
-
 header{
 	background: LavenderBlush;
 	height: 100px;
@@ -10,7 +8,7 @@ header{
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: center;
 }
 
@@ -120,10 +118,6 @@ section{
 
 #about{
 	background: rgb(255, 192, 203);
-}
-
-h2{
-	font-family: Courier, monospace;
 }
 
 #about p, #goodgirl p{
