@@ -116,6 +116,63 @@ section{
 	background-position: center;
 }
 
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 10px;
+
+}
+
+.grid-item {
+	border: 1px solid rgba(100, 100, 100, 0.8);
+	border-radius: 10px;
+	padding: 2em;
+	font-size: 18px;
+}
+
+#mytoys {
+	overflow: auto;
+}
+
+div.toygallery {
+	margin: 5px;
+}
+
+div.toygallery img{
+	width: 100%;
+	height: auto;
+}
+
+div.toygallery img:hover {
+	opacity: 0.8
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 850px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #about{
 	background: rgb(255, 192, 203);
 }
