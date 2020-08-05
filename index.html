@@ -69,43 +69,36 @@
   <section id="mytoys">
     <h2>My Toys</h2>
     <h5>Gallery of my toys!</h5>
-    <div class="responsive">
-      <div class="toygallery">
-        <img src="images/ropes.JPG" alt="ropes" width="300">
-        <div class="description">I love tug of war</div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/ropes.JPG" style="width: 100%">
+        <div class="text">I love tug of war</div>
       </div>
-    </div>
-    <div class="responsive">
-      <div class="toygallery">
-        <img src="images/squeakydog.JPG" alt="squeakydog" width="300">
-        <div class="description">Green doggo squeaky</div>
+      <div class="mySlides fade">
+        <img src="images/squeakydog.JPG" style="width: 100%">
+        <div class="text">green doggo squeaky</div>
       </div>
-    </div>
-    <div class="responsive">
-      <div class="toygallery">
-        <img src="images/patricia.JPG" alt="patricia the octopus" width="300">
-        <div class="description">Patricia the octopus</div>
+      <div class="mySlides fade">
+        <img src="images/patricia.JPG" style="width: 100%">
+        <div class="text">Patricia the octopus</div>
       </div>
-    </div>
-    <div class="responsive">
-      <div class="toygallery">
-        <img src="images/squeakyfox.JPG" alt="fox" width="300">
-        <div class="description">Small squeaky fox</div>
+      <div class="mySlides fade">
+        <img src="images/squeakyfox.JPG" style="width: 100%">
+        <div class="text">small squeaky fox</div>
       </div>
-    </div>
-    <div class="responsive">
-      <div class="toygallery">
-        <img src="images/hawaiisloth.JPG" alt="sloth" width="300">
-        <div class="description">stylish sloth</div>
+      <div class="mySlides fade">
+        <img src="images/hawaiisloth.JPG" style="width: 100%">
+        <div class="text">stylish sloth</div>
       </div>
-    </div>
-    <div class="responsive">
-      <div class="toygallery">
-        <img src="images/flyingpig.JPG" alt="pig" width="300">
-        <div class="description">Pigs can fly!</div>
+      <div class="mySlides fade">
+        <img src="images/flyingpig.JPG" style="width: 100%">
+        <div class="text">pigs can fly</div>
       </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <div class="clearfix"></div>
+
   </section>
   <section id="goodgirl">
     <h2>Who's a good girl?</h2>
@@ -124,5 +117,6 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="slideshow.js"></script>
   </body>
 </html>
