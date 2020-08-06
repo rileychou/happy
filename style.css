@@ -120,6 +120,7 @@ section{
 	background: url(images/mtns.png) no-repeat;
 	background-size: auto;
 	background-position: center;
+	margin-top: 100px;
 }
 
 .grid-container {
@@ -131,8 +132,9 @@ section{
 }
 
 .grid-item {
-	border: 1px solid rgba(100, 100, 100, 0.8);
-	border-radius: 10px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 5px 5px 3px 1px #ffbffe80;
 	padding: 2em;
 	font-size: 18px;
 }
@@ -142,7 +144,7 @@ section{
 }
 
 .slideshow-container {
-	max-width: 1000px;
+	max-width: 800px;
 	margin: auto;
 	position: relative;
 }
@@ -262,8 +264,6 @@ div.toygallery img:hover {
 	background: rgb(255, 192, 203);
 	
 }
-
-
 
 ul{
 	margin: 0;
